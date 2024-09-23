@@ -1,0 +1,233 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #32c770; /* Green color for brand */
+}
+
+.nav-link {
+  color: #333 !important;
+  font-weight: 500;
+  margin-right: 15px;
+}
+
+.nav-link:hover {
+  color: #32c770 !important; /* Green hover effect */
+}
+
+.btn-outline-success {
+  border-color: #32c770;
+  color: #32c770;
+}
+
+.btn-outline-success:hover {
+  background-color: #32c770;
+  color: #fff;
+}
+
+.btn-success {
+  background-color: #32c770;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #28a745;
+}
+.login
+{
+  padding: 10px;
+  padding-top: 10px;
+  margin-top: 20px;
+  width: 100px;
+  height: 50px;
+}
+
+/* Home Section */
+.container h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #212529;
+  line-height: 1.2;
+}
+
+.container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.container ul li {
+  font-size: 1.1rem;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.container p {
+  color: #555;
+  font-size: 1rem;
+  margin-top: 20px;
+}
+
+.container .btn-success {
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+
+.container .btn-outline-secondary {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-color: #6c757d;
+}
+
+.container .img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Footer Section */
+footer {
+  background-color: #f8f9fa;
+  padding-top: 300px;
+  padding-bottom: 300px;
+}
+
+footer h5 {
+  color: #212529;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+footer p {
+  color: #6c757d;
+  font-size: 0.95rem;
+}
+
+footer a {
+  color: #32c770;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #28a745;
+  text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .container h1 {
+    font-size: 2rem;
+  }
+
+  .navbar {
+    text-align: center;
+  }
+
+  .navbar .navbar-brand {
+    margin: auto;
+  }
+
+  .navbar .nav-link {
+    margin: 10px 0;
+  }
+}
+/* CSS for Footer */
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: auto;
+}
+
+.footer p {
+  margin: 0;
+  color: #6c757d;
+  font-size: 0.95rem;
+}
+
+.footer a {
+  color: #32c770;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #28a745;
+  text-decoration: underline;
+}
+/*.hello
+{
+  padding-top: 1000px;
+}*/
+.homepage
+{
+  padding-top: 100px;
+}
+.footer-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px; /* Adds space between the image and the text */
+}
+/* CustomDesignSection.css */
+.design-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px; /* Adds space below the image */
+}
+.custom
+{
+  padding-top: 300px;
+  padding-bottom: 300px;
+}
+.all-products-text {
+  font-size: 16px;
+  color: #0ddc2c; /* You can adjust the color to your preference */
+  cursor: pointer; /* Makes it look clickable if needed */
+}
+
+.arrow-symbol {
+  margin-left: 5px; /* Adds a little space between the text and the arrow */
+}
+/* ThreeGridSection.css */
+.grid-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px; /* Adds space between the image and text */
+}
+
+.text-center h5 {
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.text-center p {
+  font-size: 14px;
+  color: #555;
+}
+
+.image-description {
+  font-style: italic;
+  color: #777;
+}
+.three
+{
+  padding-top: 300px;
+  padding-bottom: 300px;
+}
+.img-fluid
+{
+  padding-top: 0px;
+}
